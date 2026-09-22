@@ -3,3 +3,89 @@
     margin: 0;
     box-sizing: border-box;
 }
+#volta{
+    text-decoration: none;
+    font-size: 35px;
+    color:black;
+}
+header{ 
+     background-color: rgb(231, 255, 11);
+}
+header{
+    color: rgb(109, 6, 243);
+    display: flex;
+    gap: 100px;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 5%;
+}
+header ul {
+    display: flex;
+    flex-direction:row;
+}
+    header li {
+        padding: 20px;
+        list-style-type: none;
+        font-size: 20px;
+    }
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+   
+}
+h2 {
+    text-align: center;
+    font-size: 60px;
+
+}
+p {
+    font-size: 30px;
+}
+body {
+    background-color: rgb(211, 190, 190);
+}
+footer {
+ background-color: rgb(89, 2, 230);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 10px;
+}
+#loja img{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
+#loja{
+     background-image: url('../assets/img/loja.png');
+    margin: 50px;
+     padding: 15px;
+     width: 1000px;
+     height: 700px ;
+     text-align: center;
+     border-radius: 20px;
+     flex-direction: row;
+}
+#historia {
+     background-color: rgb(112, 26, 43);
+    border-radius: 20px;
+    margin: 50px;
+     padding: 15px;
+     width: 32%;
+     text-align: center;
+     flex-direction: row;
+
+}
+#historia p {
+    color: aqua;
+}
+#pag2 {
+    display: flex;
+    gap: 10%;
+}

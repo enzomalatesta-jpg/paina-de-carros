@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 header{
-    background-color: rgb(158, 41, 64);
+    background-color: rgb(115, 45, 194);
+    
 }
 #volta{
     text-decoration: none;
@@ -13,14 +14,15 @@ header{
 
 }
    header h1 {
-    color: rgb(34, 219, 74);
+    color: rgb(179, 219, 34);
     font-size: 50px;
     text-align: center;
+    flex-direction: row;
 }
 header p {
     text-align: center;
     font-size: 30px;
-    color: rgb(34, 219, 74);
+    color: rgb(202, 221, 33);
 }
 .car {
     background-color: rgba(179, 211, 65, 0.566);
@@ -35,11 +37,12 @@ header p {
     text-align: center;
     font-size: 30px;
     color: rgb(38, 210, 240);
-    background-color: rgba(211, 82, 211, 0.598);
+    background-color: rgba(76, 118, 131, 0.598);
     border-radius: 40px;
 display: flex;
 justify-content:space-around;
 align-items: center;
+
 
 }
 #logo img {
