@@ -21,17 +21,24 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
-
-header ul {
-    display: flex;
-    flex-direction:row;
+a {
+    text-decoration: none;
 }
-    
-    header li {
-        padding: 20px;
-        list-style-type: none;
-        font-size: 20px;
-    }
+#header-link{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-decoration: none;
+}
+
+#header-link p{
+ color: rgb(196, 74, 70);
+ font-weight: bold;
+ font-size: 15px;
+ background-color: rgba(102, 102, 238, 0.452);
+ border-radius: 20px;
+ text-decoration: none;
+}
 
 header h1 {
     text-align: center;
@@ -87,14 +94,12 @@ footer {
 }
 
 .bum {
+     background-image: url('../assets/img/buner-index.png');
     font-size: 50px;
     background-color: rgb(89, 2, 230);
     text-align: center;
     height: 400px;
       font-size: 50px;
-}
-.bum {
-    background-image: url('../assets/img/buner.png');
 }
 h2 {
     font-size: 40px;
@@ -107,11 +112,8 @@ h3 {
 p {
     font-size: 40px;
     padding: 2px;
-    color: #fff;
 }
-table, th, td {
-  border: 1px solid;
-}
+
 #ta {
     text-align: center;
      display: flex;
@@ -127,6 +129,7 @@ table, th, td {
      width: 32%;
      text-align: center;
      flex-direction: row;
+      color: rgb(255, 254, 253);
 }
 #ofertas {
     background-color: rgb(39, 98, 133);
@@ -136,15 +139,24 @@ table, th, td {
      width: 32%;
      text-align: center;
      flex-direction: row;
+     color: rgb(255, 254, 253);
+}
+#ofertas img{
+border-radius: 20px;
 }
 #historia img{
 height: 300px;
-width: 500px;
+width: 350px;
+border-radius: 20px;
 }
 #iu {
     display: flex;
     gap: 8%;
-   a {
-    color: rgb(9, 195, 228);
+    align-items: stretch;
+    justify-content: space-around
 }
+#iu a{
+color: rgb(250, 246, 4);
+text-decoration: none;
 }
+
