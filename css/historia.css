@@ -5,13 +5,13 @@
 }
 #volta{
     font-size: 35px;
-    color:black;
-}
-header{ 
-     background-color: rgb(231, 255, 11);
+    color: yellow;
 }
 header{
-    color: rgb(109, 6, 243);
+     background-color: black;
+}
+header{
+    color: yellow;
     display: flex;
     gap: 100px;
     flex-direction:row;
@@ -24,7 +24,7 @@ header{
 header h1{
     text-align: center;
     font-size: 60px;
-   
+
 }
 header p{
     text-align: center;
@@ -39,10 +39,11 @@ p {
     font-size: 30px;
 }
 body {
-    background-color: rgb(211, 190, 190);
+background-color: rgba(183, 188, 189, 0.589);
 }
 footer {
- background-color: rgb(89, 2, 230);
+ background-color: rgb(8, 8, 8);
+ color: yellow;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -54,22 +55,21 @@ footer {
 #loja img{
 border-radius: 30px;
 height: 600px;
-width: 600px;
+width: 500px;
 }
 #historia {
-     background-color: rgb(112, 26, 43);
+     background-color: yellow;
+     color: black;
     border-radius: 20px;
     margin: 50px;
      padding: 15px;
-     width: 100%;
+     width: 50%;
      height: 600px;
      text-align: center;
      flex-direction: row;
 
 }
-#historia p {
-    color: aqua;
-}
+
 #pag2 {
     display: flex;
     gap: 4%;
@@ -81,6 +81,11 @@ a {
     text-decoration: none;
 }
 #site-externo {
+    background-color: crimson;
+    color: rgb(7, 7, 7);
+    padding: 15px;
+    margin: 30px;
+    border-radius: 20px;
     text-align: center;
     font-size: 30px;
 }

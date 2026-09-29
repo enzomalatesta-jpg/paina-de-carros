@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: rgb(115, 45, 194);
+    background-color: rgb(5, 2, 8);
        display: flex;
     gap: 100px;
     flex-direction:row;
@@ -12,11 +12,11 @@ header{
     text-align: center;
     align-items: center;
     padding: 20px 5%;
-    
+
 }
 #volta{
     font-size: 35px;
-    color:black
+    color:yellow
 
 }
    header h1 {
@@ -31,7 +31,7 @@ header p {
     color: rgb(202, 221, 33);
 }
 .car {
-    background-color: rgba(179, 211, 65, 0.566);
+    background-color: yellow;
     margin: 50px;
      border-radius: 20px;
      padding: 15px;
@@ -42,8 +42,8 @@ header p {
 #logo{
     text-align: center;
     font-size: 30px;
-    color: rgb(38, 210, 240);
-    background-color: rgba(76, 118, 131, 0.598);
+    color: rgb(4, 5, 6);
+    background-color: yellow;
     border-radius: 40px;
 display: flex;
 justify-content:space-around;
@@ -63,16 +63,17 @@ align-items: center;
 }
 .img-carro {
     font-size: 30px;
-        background-color: rgba(179, 211, 65, 0.566);
+        background-color: yellow;
     margin: 50px;
       border-radius: 20px;
      padding: 15px;
      width: 32%;
      text-align: center;
      flex-direction: row;
+     flex-wrap: wrap;
 }
 body {
-    background-color: rgba(160, 210, 219, 0.589);
+    background-color: rgba(183, 188, 189, 0.589);
 }
 .card{
     display: flex;
@@ -82,7 +83,8 @@ body {
     justify-content: space-evenly;
 }
 footer {
-    background-color: rgba(180, 124, 71, 0.589);
+    background-color: rgb(0, 0, 0);
+    color: yellow;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -94,13 +96,18 @@ footer {
 h3 {
     text-align: center;
 }
+#pai {
+    background-color: crimson;
+    color: rgb(7, 7, 7);
+    padding: 15px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+}
 
 #site-externo {
-    text-align: center;
-    background-color: crimson;
-    color: bisque;
-    flex-wrap: wrap;
-    color: rgb(0, 255, 234);
+
 }
 a {
     text-decoration: none;

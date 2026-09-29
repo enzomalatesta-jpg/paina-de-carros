@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 header {
-    color: #4f5555;
-    background-color: #FCBB97;
+    color: #000000;
+    background-color: rgb(6, 6, 5);
+    color: yellow;
     display: flex;
     gap: 100px;
     flex-direction:row;
@@ -32,10 +33,10 @@ a {
 }
 
 #header-link p{
- color: rgb(196, 74, 70);
+    color: #000;
  font-weight: bold;
  font-size: 15px;
- background-color: rgba(102, 102, 238, 0.452);
+ background-color: red;
  border-radius: 20px;
  text-decoration: none;
 }
@@ -43,7 +44,7 @@ a {
 header h1 {
     text-align: center;
     font-size: 60px;
-   
+
 }
 header img {
     width: 200px;
@@ -51,11 +52,12 @@ header img {
     border-radius: 50px;
 }
 body {
-    background-color: #7f8b8d;
+    background-color: rgba(183, 188, 189, 0.589);
 }
 
 footer {
-    background-color: #91A7A7;
+    background-color: black;
+    color: yellow;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -65,7 +67,7 @@ footer {
 }
 .bum {
     font-size: 50px;
-    background-color: rgb(156, 224, 255);
+    background-color: yellow;
     text-align: center;
     height: 400px;
       font-size: 50px;
@@ -80,7 +82,7 @@ footer {
      width: 32%;
      text-align: center;
      flex-direction: row;
-    
+
 }
 .car img {
     width: 600px;
@@ -122,27 +124,31 @@ p {
      font-size: 50px;
 }
 #historia {
-    background-color: rgb(112, 26, 43);
+    background-color: yellow;
     border-radius: 20px;
     margin: 50px;
      padding: 15px;
      width: 32%;
      text-align: center;
+     align-items: center;
      flex-direction: row;
-      color: rgb(255, 254, 253);
+      color: rgb(7, 7, 6);
 }
 #ofertas {
-    background-color: rgb(39, 98, 133);
+    background-color: yellow;
     border-radius: 20px;
     margin: 50px;
      padding: 15px;
      width: 32%;
      text-align: center;
+     align-items: center;
      flex-direction: row;
-     color: rgb(255, 254, 253);
+     color: rgb(16, 15, 15);
 }
 #ofertas img{
 border-radius: 20px;
+height: 300px;
+width: 350px;
 }
 #historia img{
 height: 300px;
@@ -152,11 +158,16 @@ border-radius: 20px;
 #iu {
     display: flex;
     gap: 8%;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-around
 }
 #iu a{
-color: rgb(250, 246, 4);
+color: rgb(11, 11, 10);
 text-decoration: none;
 }
-
+.link {
+background-color: red;
+color: #000;
+border-radius: 20px;
+font-size: 10px;
+}
